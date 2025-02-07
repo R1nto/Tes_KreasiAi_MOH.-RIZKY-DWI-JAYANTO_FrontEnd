@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Pembuatan Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+
+    <!-- Navbar -->
+    
+    <nav>
+        <div class="container">
+            <h1 class="logo">WebMaker</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#articles">Artikel</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slide Hero -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h2>Jasa Pembuatan Website Profesional</h2>
+            <p>Membantu Anda membangun kehadiran online yang kuat.</p>
+            <a href="#contact" class="btn">Hubungi Kami</a>
+        </div>
+    </header>
+     
+    <!-- Section Tentang Kami -->
+    <section id="about" >
+        <h2>Tentang Kami</h2>
+        <div class="container">
+            <div class="about-content">
+                <img src="image/wa.jpg" alt="Tim Kami" class="about-img">
+                <div class="about-text">
+                    <h3>Siapa Kami?</h3>
+                    <p>Kami adalah tim profesional yang berpengalaman dalam pembuatan website. Kami berkomitmen untuk memberikan layanan terbaik untuk klien kami.</p>
+                    <p>Kami percaya bahwa setiap bisnis memiliki cerita unik yang perlu diceritakan. Dengan pengalaman dan keahlian kami, kami membantu Anda membangun kehadiran online yang kuat dan menarik.</p>
+                    <a href="#contact" class="btn">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Layanan -->
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <div class="container">
+            <div class="container-services">
+                <div class="service">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Pembuatan Website</h3>
+                    <p>Kami membuat website yang responsif dan menarik.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Desain UI/UX</h3>
+                    <p>Desain antarmuka yang user-friendly dan menarik.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO</h3>
+                    <p>Optimasi mesin pencari untuk meningkatkan visibilitas.</p>
+                </div>
+                <div class="service">
+                    <i class="fab fa-android icon"></i>
+                    <h3>Android APP</h3>
+                    <p>Kami membuat aplikasi android yang responsif dan menarik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal untuk Gambar Besar -->
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <!-- Section Produk -->
+    <section id="products">
+        <h2>Produk Kami</h2>
+        <div class="container">
+            <div class="container-products">
+                <div class="product">
+                    <img src="image/skadi ututu.jpg" alt="Produk 1">
+                    <h3>Produk 1</h3>
+                    <p>Deskripsi singkat tentang produk 1.</p>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+                <div class="product">
+                    <img src="image/skadi ututu.jpg" alt="Produk 2">
+                    <h3>Produk 2</h3>
+                    <p>Deskripsi singkat tentang produk 2.</p>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+                <div class="product">
+                    <img src="image/w ark.jpg" alt="Produk 3">
+                    <h3>Produk 3</h3>
+                    <p>Deskripsi singkat tentang produk 3.</p>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+                <div class="product">
+                    <img src="image/w ark.jpg" alt="Produk 3">
+                    <h3>Produk 4</h3>
+                    <p>Deskripsi singkat tentang produk 4.</p>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+                <div class="product">
+                    <img src="image/w ark.jpg" alt="Produk 3">
+                    <h3>Produk 5</h3>
+                    <p>Deskripsi singkat tentang produk 5.</p>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div><div class="product">
+                    <img src="image/w ark.jpg" alt="Produk 3">
+                    <h3>Produk 6</h3>
+                    <p>Deskripsi singkat tentang produk 6.</p>
+                    <a href="#" class="btn">Lihat Detail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Artikel -->
+    <section id="articles">
+        <h2>Artikel Terbaru</h2>
+        <div class="container">
+            <div class="container-articles">
+                <div class="article">
+                    <img src="image/wallpaperflare.com_wallpaper (3).jpg" alt="Artikel 1">
+                    <h3>Judul Artikel 1</h3>
+                    <p>Tanggal: 1 Januari 2025</p>
+                    <p>Deskripsi singkat tentang artikel 1. Ini adalah ringkasan dari konten yang lebih panjang.</p>
+                    <a href="#" class="btn">Baca Selengkapnya</a>
+                </div>
+                <div class="article">
+                    <img src="image/wallpaperflare.com_wallpaper (3).jpg" alt="Artikel 2">
+                    <h3>Judul Artikel 2</h3>
+                    <p>Tanggal: 5 Januari 2025</p>
+                    <p>Deskripsi singkat tentang artikel 2. Ini adalah ringkasan dari konten yang lebih panjang.</p>
+                    <a href="#" class="btn">Baca Selengkapnya</a>
+                </div>
+                <div class="article">
+                    <img src="image/wallpaperflare.com_wallpaper (4).jpg" alt="Artikel 3">
+                    <h3>Judul Artikel 3</h3>
+                    <p>Tanggal: 10 Januari 2025</p>
+                    <p>Deskripsi singkat tentang artikel 3. Ini adalah ringkasan dari konten yang lebih panjang.</p>
+                    <a href="#" class="btn">Baca Selengkapnya</a>
+                </div>
+                <div class="article">
+                    <img src="image/wallpaperflare.com_wallpaper (4).jpg" alt="Artikel 3">
+                    <h3>Judul Artikel 4</h3>
+                    <p>Tanggal: 10 Januari 2025</p>
+                    <p>Deskripsi singkat tentang artikel 3. Ini adalah ringkasan dari konten yang lebih panjang.</p>
+                    <a href="#" class="btn">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Section Galeri -->
+     <section id="gallery">
+        <h2>Galeri</h2>
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <h3>Gambar 1</h3>
+                    <img src="image/skadi ututu.jpg" alt="Gambar 1" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <h3>Gambar 2</h3>
+                    <img src="image/ta.jpg" alt="Gambar 2" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <h3>Gambar 3</h3>
+                    <img src="image/thumb-1920-993076.png" alt="Gambar 3" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <h3>Gambar 4</h3>
+                    <img src="image/ta.jpg" alt="Gambar 4" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <h3>Gambar 5</h3>
+                    <img src="image/wallpaperflare.com_wallpaper (3).jpg" alt="Gambar 5" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <h3>Gambar 6</h3>
+                    <img src="image/wallpaperflare.com_wallpaper (4).jpg" alt="Gambar 6" onclick="openModal(this)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Kontak -->
+    <section id="contact" class="contact-section">
+        <h2>Kontak Kami</h2>
+        
+            <p>Jika Anda tertarik dengan layanan kami, silakan hubungi kami melalui email atau telepon.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: <a href="mailto:info@webmaker.com">info@webmaker.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>Telepon: <a href="tel:+62123456789">+62 123 456 789</a></p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 WebMaker. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
